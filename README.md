@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# AddressMe
+=======
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +25,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+>>>>>>> 59ac7c6ac80b2c7fa9e458ec1fe5d1bdf1d2e096
