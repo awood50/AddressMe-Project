@@ -24,7 +24,7 @@ class AddressesController < ApplicationController
     end
     def update
         @address = Address.find(params[:id])
-        if @address.update(article_params)
+        if @address.update(address_params)
             redirect_to @address
         else
             render 'edit'
