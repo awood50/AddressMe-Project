@@ -14,9 +14,15 @@ table {
     margin-right: auto;
 }
 
+td {
+    padding: 20px 5px 20px 5px;
+}
+
 th {
     color: white;
-    background-color: green;
+    background-color: #EE3233;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 tr {
