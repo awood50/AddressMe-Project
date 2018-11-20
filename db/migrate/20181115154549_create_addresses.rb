@@ -5,6 +5,7 @@ class CreateAddresses < ActiveRecord::Migration[5.2]
       t.string :Phone_Number
       t.string :email
       t.text :address
+      t.references :address, foreign_key: true
 
       t.timestamps
     end
