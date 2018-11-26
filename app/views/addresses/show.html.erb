@@ -19,17 +19,7 @@
 </p>
 
 <h2>Reviews</h2>
-<% @address.reviews.each do |review| %>
-<p>
-  <strong>Name:</strong>
-  <%= review.name %>
-</p>
-
-<p>
-  <strong>Review:</strong>
-  <%= review.body %>
-</p>
-<% end %>
+<%= render @address.reviews %>
 
 <h3>Add a review:</h2>
 <%= form_for([@address, @address.reviews.build]) do |f| %>
