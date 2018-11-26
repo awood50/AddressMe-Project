@@ -22,23 +22,8 @@
 <%= render @address.reviews %>
 
 <h3>Add a review:</h2>
-<%= form_for([@address, @address.reviews.build]) do |f| %>
-<p>
-  <%= f.label :name %>
-  <br>
-  <%= f.text_field :name %>
-</p>
+<%= render 'reviews/form' %>
 
-<p>
-  <%= f.label :body %>
-  <br>
-  <%= f.text_area :body %>
-</p>
 
-<p>
-  <%= f.submit %>
-</p>
-<% end %>
-<div id="link">
   <%= link_to 'Back', addresses_path %>
 </div>
