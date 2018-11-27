@@ -1,0 +1,35 @@
+<h1 style="text-align:center">Listing Addresses</h1>
+
+<div id="link" style="text-align:center">
+  <%= link_to 'New', new_address_path %></td>
+</div>
+
+<br>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Phone Number</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+ 
+  <% @address.each do |address| %>
+    <tr>
+      <td><%= address.name %></td>
+      <td><%= address.Phone_Number %></td>
+      <td><%= address.email %></td>
+      <td><%= address.address %></td>
+      <td><%= link_to 'Show', address_path(address) %></td>
+      <td><%= link_to 'Edit', edit_address_path(address) %></td>
+      <td><%= link_to 'Delete',
+                                address_path(address), 
+                                method: :delete,
+                                data: { confirm: 'Are you sure?' } %></td>
+      
+    </tr>
+  <% end %>
+</table>

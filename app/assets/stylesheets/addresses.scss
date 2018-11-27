@@ -1,0 +1,67 @@
+body {
+    background-color: #D5D5D5;
+}
+
+h1, label, #link {
+    color: teal;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+table {
+    font-family: Verdana, Geneva, sans-serif;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 20px 5px 20px 5px;
+}
+
+th {
+    color: white;
+    background-color: #EE3233;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:hover td {
+    background-color: pink;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 12px;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 12px;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    resize: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #4CAF50;
+    float: right;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+}
