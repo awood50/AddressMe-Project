@@ -18,8 +18,8 @@ end
      scenario "User successfully navigates to the view address page from the listing addresses page" do
         visit addresses_path
         expect(page).to have_content("Listing Addresses")
-        click_link "Show"
-        #expect(page).to have_content("New Contact")
+        click_link "Delete"
+        expect(page).to have_content("New Contact")
         expect(page).to have_field("Name")
         expect(page).to have_field("Phone number")
         expect(page).to have_field("Email")
