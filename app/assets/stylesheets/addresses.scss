@@ -1,6 +1,9 @@
 html {
     background-size: cover;    
+<<<<<<< HEAD
     //background-repeat: no-repeat;
+=======
+>>>>>>> 8866dbffbf9631ccacf153343431ca482e8f3156
 }
 
 body {
@@ -11,11 +14,17 @@ body {
     //background-repeat: no-repeat;
 }
 
+
 h1, label {
     color: teal;
     left: 0%;
     font-family: Verdana, Geneva, sans-serif;
 }
+
+#listingCSS {
+    font-size: 48px;
+}
+
 
 #link {
     background-color: rgb(0,100,100);
@@ -36,7 +45,7 @@ h1, label {
 }
 
 .back:hover, #link:hover, #show:hover, #edit:hover, #delete:hover {
-    transition: all .5s;
+    transition: all .3s;
     transform: scale(1.2, 1.2);
 }
 
