@@ -1,0 +1,21 @@
+<div class="reviewCSS">
+    <p>
+        <strong>Name:</strong>
+        <%= review.name %>
+    </p>
+    
+    <p>
+        <strong>Review:</strong>
+        <%= review.body %>
+    </p>
+</div>
+
+<p class="destroyLink">
+    <%= link_to 'Destroy Review', [review.address, review],
+                 method: :delete,
+                 data: { confirm: 'Are you sure?' } %>
+    
+</p>
+<br>
+<br>
+<br>
