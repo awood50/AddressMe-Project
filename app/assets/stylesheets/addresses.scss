@@ -5,8 +5,23 @@ body {
     background-repeat: no-repeat;
 }
 
-h1, label, #link {
+h1, label {
     color: teal;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#link {
+    background-color: blue;
+    border: none;
+    text-align: center;
+    margin: 0px 600px 0px 600px;
+    width: 75px;
+    float: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
     font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -56,6 +71,44 @@ textarea {
     background-color: #f8f8f8;
     resize: none;
     font-family: Verdana, Geneva, sans-serif;
+}
+
+#show {
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#edit {
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#delete {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 input[type=button], input[type=submit] {

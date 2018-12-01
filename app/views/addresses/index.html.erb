@@ -23,9 +23,9 @@
       <td><%= address.Phone_Number %></td>
       <td><%= address.email %></td>
       <td><%= address.address %></td>
-      <td><%= link_to 'Show', address_path(address) %></td>
-      <td><%= link_to 'Edit', edit_address_path(address) %></td>
-      <td><%= link_to 'Delete',
+      <td id="show"><%= link_to 'Show', address_path(address) %></td>
+      <td id="edit"><%= link_to 'Edit', edit_address_path(address) %></td>
+      <td id="delete"><%= link_to 'Delete',
                                 address_path(address), 
                                 method: :delete,
                                 data: { confirm: 'Are you sure?' } %></td>
