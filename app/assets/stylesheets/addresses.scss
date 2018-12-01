@@ -1,5 +1,6 @@
 html {
     background-size: cover;    
+    //background-repeat: no-repeat;
 }
 
 body {
@@ -30,6 +31,12 @@ h1, label {
     text-decoration: none;
     cursor: pointer;
     font-family: Verdana, Geneva, sans-serif;
+    transition: all .5s;
+}
+
+.back:hover, #link:hover, #show:hover, #edit:hover, #delete:hover {
+    transition: all .5s;
+    transform: scale(1.2, 1.2);
 }
 
 .back {
@@ -44,8 +51,6 @@ h1, label {
     text-decoration: none;
     cursor: pointer;
     font-family: Verdana, Geneva, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 table {
@@ -112,6 +117,7 @@ textarea {
     text-decoration: none;
     cursor: pointer;
     font-family: Verdana, Geneva, sans-serif;
+    transition: all .5s;
 }
 
 // #edit {
