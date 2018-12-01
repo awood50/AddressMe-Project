@@ -1,10 +1,74 @@
-body {
-    background-color: #D5D5D5;
+html {
+    background-size: cover;    
+    //background-repeat: no-repeat;
 }
 
-h1, label, #link {
+.contactInfo {
+    text-align: justify;
+    background-size: cover;
+}
+
+body {
+    height: 100%;
+    /*background-image: url("http://chicagopropertymanagement.org/wp-content/uploads/2016/04/Fotolia_87864791_S.jpg");*/
+    /*background-image: url("https://webgradients.com/public/webgradients_png/035%20Itmeo%20Branding.png");*/
+    background-size: 100% 100%;
+    //background-repeat: no-repeat;
+}
+
+
+h1, label {
     color: teal;
+    left: 0%;
     font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+#listingCSS {
+    font-size: 48px;
+}
+
+
+#link {
+    background-color: rgb(0,100,100);
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    //margin: 0px 600px 0px 600px;
+    width: 75px;
+    float: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+    transition: all .5s;
+    
+}
+
+.back:hover, #link:hover, #show:hover, #edit:hover, #delete:hover {
+    transition: all .3s;
+    transform: scale(1.2, 1.2);
+}
+
+.back {
+    background-color: rgb(0,100,100);
+    border: none;
+    text-align: center;
+    width: 75px;
+    float: left;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-left: 10px;
 }
 
 table {
@@ -12,15 +76,18 @@ table {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 5px 15px;
 }
 
 td {
     padding: 20px 5px 20px 5px;
+    font-weight: bold;
 }
 
 th {
     color: white;
-    background-color: #EE3233;
+    background-color: black;
     padding: 15px;
     border-radius: 5px;
 }
@@ -30,23 +97,25 @@ tr {
 }
 
 tr:hover td {
-    background-color: pink;
+    background-color: rgba(199,21,133, .4);
 }
 
 tr:nth-child(even) {
-    background-color: lightblue;
+    background-color: rgba(50,191,225,.5);
+    
 }
 
 input[type=text] {
-    width: 40%;
+    width: 20%;
     padding: 12px 12px;
     border: 2px solid #ccc;
+    left: 0%;
     background-color: #f8f8f8;
     font-family: Verdana, Geneva, sans-serif;
 }
 
 textarea {
-    width: 50%;
+    width: 40%;
     height: 150px;
     padding: 12px 12px;
     border: 2px solid #ccc;
@@ -55,10 +124,58 @@ textarea {
     font-family: Verdana, Geneva, sans-serif;
 }
 
-input[type=button], input[type=submit] {
-    background-color: #4CAF50;
-    float: right;
+#show, #edit, #delete {
+    border-collapse: separate;
+    //background-color: rgba(138,43,226, .7);
+    background-color: rgb(0,100,100);
     border: none;
+    border-radius: 10px;
+    color: white;
+    //padding: 5px;
+    border-spacing: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+    transition: all .5s;
+}
+
+// #newCSS {
+//     float: left;
+// }
+
+// #edit {
+//     background-color: yellow;
+//     border: none;
+//     border-radius: 10px;
+//     color: white;
+//     padding: 16px 20px;
+//     text-decoration: none;
+//     cursor: pointer;
+//     font-family: Verdana, Geneva, sans-serif;
+// }
+
+// #delete {
+//     background-color: red;
+//     border: none;
+//     border-radius: 10px;
+//     color: white;
+//     padding: 16px 20px;
+//     text-decoration: none;
+//     cursor: pointer;
+//     font-family: Verdana, Geneva, sans-serif;
+// }
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+input[type=button], input[type=submit] {
+    background-color: green;
+    float: right;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
     color: white;
     padding: 16px 20px;
     text-decoration: none;

@@ -1,29 +1,41 @@
-<p>
+<h2>
+  Contact Information
+</h2>
+<hr>
+<br>
+
+<p class="contactInfo">
   <strong>Name:</strong>
   <%= @address.name %>
 </p>
 
-<p>
+<p class="contactInfo">
   <strong>Phone Number:</strong>
   <%= @address.Phone_Number %>
 </p>
 
-<p>
+<p class="contactInfo">
   <strong>Email:</strong>
   <%= @address.email %>
 </p>
 
-<p>
+<p class="contactInfo">
   <strong>Address:</strong>
   <%= @address.address %>
 </p>
 
-<h2>Reviews</h2>
-<%= render @address.reviews %>
+<br>
+<br>
 
-<h3>Add a review:</h2>
+<h2>Reviews</h2>
+  <%= render @address.reviews %>
+<hr>
+<br>
+
+
+<h2>Add a review:</h2>
 <%= render 'reviews/form' %>
 
-
+<div class="back">
   <%= link_to 'Back', addresses_path %>
 </div>
