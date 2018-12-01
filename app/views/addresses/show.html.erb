@@ -1,3 +1,8 @@
+<h2>
+  Contact Information
+</h2>
+<hr>
+
 <p>
   <strong>Name:</strong>
   <%= @address.name %>
@@ -17,9 +22,13 @@
   <strong>Address:</strong>
   <%= @address.address %>
 </p>
+<br>
+<br>
 
 <h2>Reviews</h2>
-<%= render @address.reviews %>
+  <%= render @address.reviews %>
+<hr>
+
 
 <h3>Add a review:</h2>
 <%= render 'reviews/form' %>
