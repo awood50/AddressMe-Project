@@ -4,14 +4,14 @@ html {
 }
 
 #welcomePageHeading {
-    color: white;
+    color: rgb(0,100,100);
     text-align: center;
     font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     padding: 60px 0;
     border-bottom-style: double;
     border-width: 0px 0px 10px 0px;
-    border-color: teal;
+    border-color: rgb(0,100,100);
     margin: 0px 200px 0px 200px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 h4{
-    color: teal;
+    color: rgb(0,100,100);
     font-family: Verdana, Geneva, sans-serif;
     font-size: 24pt;
     margin: 75px 100px 50px 100px;
@@ -31,7 +31,7 @@ h4{
 }
 
 #welcomeLink {
-    color: teal;
+    color: rgb(0,100,100);
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 24pt;
