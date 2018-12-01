@@ -2,35 +2,38 @@
   Contact Information
 </h2>
 <hr>
+<br>
 
-<p>
+<p class="contactInfo">
   <strong>Name:</strong>
   <%= @address.name %>
 </p>
 
-<p>
+<p class="contactInfo">
   <strong>Phone Number:</strong>
   <%= @address.Phone_Number %>
 </p>
 
-<p>
+<p class="contactInfo">
   <strong>Email:</strong>
   <%= @address.email %>
 </p>
 
-<p>
+<p class="contactInfo">
   <strong>Address:</strong>
   <%= @address.address %>
 </p>
+
 <br>
 <br>
 
 <h2>Reviews</h2>
   <%= render @address.reviews %>
 <hr>
+<br>
 
 
-<h3>Add a review:</h2>
+<h2>Add a review:</h2>
 <%= render 'reviews/form' %>
 
 <div class="back">
