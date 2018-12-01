@@ -1,6 +1,11 @@
+html {
+    background-size: cover;    
+}
+
 body {
-    background-color: #D5D5D5;
-    background-image: url("https://webgradients.com/public/webgradients_png/035%20Itmeo%20Branding.png");
+    height: 100%;
+    /*background-image: url("http://chicagopropertymanagement.org/wp-content/uploads/2016/04/Fotolia_87864791_S.jpg");*/
+    /*background-image: url("https://webgradients.com/public/webgradients_png/035%20Itmeo%20Branding.png");*/
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -34,11 +39,12 @@ table {
 
 td {
     padding: 20px 5px 20px 5px;
+    font-weight: bold;
 }
 
 th {
     color: white;
-    background-color: #EE3233;
+    background-color: black;
     padding: 15px;
     border-radius: 5px;
 }
@@ -48,11 +54,12 @@ tr {
 }
 
 tr:hover td {
-    background-color: pink;
+    background-color: rgba(199,21,133, .4);
 }
 
 tr:nth-child(even) {
-    background-color: lightblue;
+    background-color: rgba(50,191,225,.5);
+    
 }
 
 input[type=text] {
